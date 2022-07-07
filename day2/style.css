@@ -11,9 +11,10 @@ html{
 }
 
 .titulo-centralizado {
+    color: white;
     text-align: center;
-    font-weight: bold;
     font-size: xx-large;
+    font-family: 'Asap Condensed', sans-serif;
 }
 
 div{
@@ -28,8 +29,17 @@ div{
     color: white;
     font-weight: bold;
     font-size: 18px;
-    border: none;
-    border-radius: 5px;
+    border:solid 1px;
+    border-radius: 10px;
     transition: 1s all;
     cursor: pointer;
 }
+
+.enviar:hover {
+    background: #49A2FB;
+    border: solid #F2F4F7 1px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+ }
