@@ -4,34 +4,12 @@ header {
     padding: 20px 0; <!-- é adicionado preenchimento de 20 px em cima e em baixo e 0px nas laterais -->
 }
 
-div { <!-- utilizando a classe criada no html-->
-    position: relative;<!-- posiciona a "caixa" com relação a posição inicial-->
-    width: 940px; <!-- cria largura da caixa, sendo 940px um valor padronizado utilizado-->
-    margin: 0 auto;<!-- a margem criada aos lado como auto permite que o item fique centralizado automáticamente, sendo calculado conforme a tela de visualização-->
-}
-
 .titulo-centralizado {
     text-align: center;
     font-weight: bold;
     font-size: xx-large;
 }
 
-form{
-    text-align: center;
-    margin: 40px 0;
-    
-}
-form label, form legend {
-    display:block;
-    font-size: 20px;
-    margin: 0 0 10px;
-}
-.input-padrao {
-    display: block;
-    margin: 0 auto 0px;
-    padding: 10px 25px;
-    width: 50%;
-}
 .enviar {
     width:40%;
     padding: 15px 0;
