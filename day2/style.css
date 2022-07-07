@@ -1,3 +1,45 @@
-header{
-  text-align: center;
+header {
+    text-align: center;
+    background: #000000; <!-- adiciona cor ao "plano de fundo"-->
+    padding: 20px 0; <!-- é adicionado preenchimento de 20 px em cima e em baixo e 0px nas laterais -->
 }
+
+html{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(black,black,rgb(219, 217, 217));
+}
+
+.titulo-centralizado {
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Asap Condensed', sans-serif;
+}
+
+div{
+    text-align: center;
+}
+
+.enviar {
+    width:40%;
+    padding: 15px 0;
+    margin: 50px;
+    background: black;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border:solid 1px;
+    border-radius: 10px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: #49A2FB;
+    border: solid #F2F4F7 1px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+ }
